@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu de Cadastros - Clínica Saúde</title>
+    <link rel="stylesheet" href="menucadastro.css">
+</head>
+
+<body>
+    <nav aria-label="Menu principal de cadastros">
+        <ul>
+            <li><a href="cadastrofuncio.php" role="link" aria-describedby="descAtendente">Cadastro Funcionário</a></li>
+            <li><a href="cadastrocli.php" role="link" aria-describedby="descCliente">Cadastro Cliente</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Selecione o tipo de cadastro</h1>
+        <p>Use o menu acima para navegar até o formulário de cadastro do Atendente, Cliente ou Médico.</p>
+    </main>
+
+    <div style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">
+        <p id="descAtendente">Página para cadastro de atendentes da clínica.</p>
+        <p id="descCliente">Página para cadastro de clientes da clínica.</p>
+    </div>
+
+    <hr>
+
+    <div
+        style="max-width: 600px; margin: 2rem auto; background-color: #ffffff; border: 1px solid #ccc; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+        <h2 style="color: #8f0c0c; margin-bottom: 1rem;">📚 Como se cadastrar:</h2>
+        <ol style="line-height: 1.8; font-size: 1rem;">
+            <li>Escolha no menu acima o tipo de cadastro desejado (Atendente, Cliente ou Médico).</li>
+            <li>Você será direcionado para a página correspondente ao tipo de cadastro.</li>
+            <li>Preencha todos os campos obrigatórios do formulário com atenção.</li>
+            <li>Clique no botão <strong>"Cadastrar"</strong> ao final do formulário.</li>
+            <li>Após o envio, você verá uma mensagem de confirmação.</li>
+        </ol>
+        <p style="margin-top: 1rem; color: #555;">Em caso de dúvidas, entre em contato com o suporte da clínica.</p>
+
+        <!-- Botão para o canal de serviços -->
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="servicos.html" style="
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #8f0c0c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    ">Ir para Canal de Serviços</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
